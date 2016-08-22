@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 *.iml
 .gradle
 /local.properties
@@ -8,6 +9,8 @@
 /build
 /captures
 =======
+=======
+>>>>>>> Lifez/master
 # Built application files
 *.apk
 *.ap_
@@ -48,4 +51,7 @@ captures/
 
 # Keystore files
 *.jks
+<<<<<<< HEAD
+>>>>>>> Lifez/master
+=======
 >>>>>>> Lifez/master
