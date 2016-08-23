@@ -2,68 +2,140 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:layout_marginBottom="2dp"
-    android:layout_marginLeft="10dp"
-    android:layout_marginRight="10dp"
-    android:layout_marginTop="10dp"
-    android:orientation="vertical"
-    tools:context=".HealthActivity1">
+    android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/title_text_view"
+    <ImageView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="5dp"
-        android:text="Mejora tu salud"
-        android:textSize="25sp"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/subtitle_text_view"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/title_text_view"
-        android:layout_marginBottom="2dp"
-        android:text="1. Come 5 veces al día"
-        android:textSize="16dp" />
-
-    <View
-        android:id="@+id/line_view"
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:layout_below="@id/subtitle_text_view"
-        android:layout_marginBottom="10dp"
-        android:layout_marginTop="2dp"
-        android:background="#BDBDBD" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/line_view"
-        android:text="Descripción Descripción Descripción Descripción Descripción Descripción Descripción Descripción Descripción Descripción Descripción Descripción Descripción Descripción Descripción Descripción Descripción Descripción Descripción Descripción Descripción Descripción Descripción Descripción Descripción Descripción Descripción Descripción Descripción Descripción Descripción Descripción Descripción Descripción Descripción Descripción Descripción Descripción Descripción" />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="match_parent" />
 
     <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true">
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-        <Button
-            android:id="@+id/home_button"
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                tools:context=".HealthActivity1">
+
+                <TextView
+                    android:id="@+id/title_text_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="Mejora tu salud"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/subtitle_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:text="1. Come 5 veces al día"
+                    android:textSize="16dp" />
+
+                <View
+                    android:id="@+id/line_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="2dp"
+                    android:background="#BDBDBD" />
+
+                <TextView
+                    android:id="@+id/text1_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:text="Todos los grandes nutricionistas recomiendan fragmentar las comidas diarias en 5 ó 6. El motivo es sencillo; a diferencia de si comemos 3 veces al día, hacer más comidas con menos cantidad de comida en cada una de ellas nos va a permitir comer menos, y, por lo tanto, consumir menos calorías." />
+
+                <TextView
+                    android:id="@+id/text2_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:text="Tu cuerpo es previsor, es decir, cuando no le das los alimentos con regularidad, guarda reservas y éstas se convierten en grasa." />
+
+                <TextView
+                    android:id="@+id/text3_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/text2_view"
+                    android:layout_marginBottom="10dp"
+                    android:text="Además, en cada comida deberás consumir los siguientes macronutrientes (nutrientes que suministran la mayor parte de la energía metabólica del organismo):"/>
+
+                <TextView
+                    android:id="@+id/text4_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="1. Proteína: Puede derivar de lácteos, carnes y sus derivados. También de huevos, frutas y verduras, además de las legumbres. Es el macronutriente más importante."/>
+
+                <TextView
+                    android:id="@+id/text5_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="2. Hidratos de carbono: Provistos por el pan, galletas, cereales, harinas y derivados, pastas u otros. Ayudan a adquirir peso y son un buen aporte energético."/>
+
+                <TextView
+                    android:id="@+id/text6_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="3. Lípidos insaturados: Derivan del aceite de oliva, frutos secos o del aguacate. También del pescado azul. Son grasas no saturadas y, por lo tanto, no son dañinas para nuestro organismo."/>
+
+                <TextView
+                    android:id="@+id/text7_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="4. Lípidos saturados: Grasas saturadas y, algo que debemos evitar si no queremos engordar. Son éstas las grasas saturadas."/>
+
+                <TextView
+                    android:id="@+id/text8_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:text="Para acabar, hemos de concluir que una buena comida debe contener líquidos, vitaminas y minerales, ya que somos el 80% agua, y los minerales nos permiten cuidar nuestros huesos y articulaciones."/>
+            </LinearLayout>
+
+        </ScrollView>
+
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Volver" />
+            android:layout_gravity="center_horizontal">
 
-        <Button
-            android:id="@+id/next_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Siguiente" />
+            <Button
+                android:id="@+id/home_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Volver" />
+
+            <Button
+                android:id="@+id/next_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Siguiente" />
+
+        </LinearLayout>
 
     </LinearLayout>
 
