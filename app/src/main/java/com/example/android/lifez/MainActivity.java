@@ -16,11 +16,19 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button changeScreen = (Button) findViewById(R.id.sport_button);
-        changeScreen.setOnClickListener(new View.OnClickListener() {
+        Button sportScreen = (Button) findViewById(R.id.sport_button);
+        sportScreen.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                Intent sportScreen1 = new Intent(view.getContext(), HealthActivity1.class);
-                startActivityForResult(sportScreen1, 0);
+                Intent sportScreen = new Intent(view.getContext(), HealthActivity1.class);
+                startActivityForResult(sportScreen, 0);
+            }
+        });
+
+        Button studyScreen = (Button) findViewById(R.id.study_button);
+        studyScreen.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+                Intent studyScreen = new Intent(view.getContext(), StudyActivity1.class);
+                startActivityForResult(studyScreen, 0);
             }
         });
 

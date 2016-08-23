@@ -10,11 +10,11 @@ import android.widget.ImageButton;
 /**
  * Created by c.vazquezlos on 22/08/2016.
  */
-public class HealthActivity4 extends AppCompatActivity {
+public class StudyActivity4 extends AppCompatActivity {
 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_health_4);
+        setContentView(R.layout.activity_study_4);
 
         Button returnScreen = (Button) findViewById(R.id.return_button);
         returnScreen.setOnClickListener(new View.OnClickListener() {
@@ -28,8 +28,8 @@ public class HealthActivity4 extends AppCompatActivity {
         Button changeScreen = (Button) findViewById(R.id.next_button);
         changeScreen.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                Intent sportScreen4 = new Intent(view.getContext(), HealthActivity5.class);
-                startActivityForResult(sportScreen4, 0);
+                Intent studyScreen4 = new Intent(view.getContext(), StudyActivity5.class);
+                startActivityForResult(studyScreen4, 0);
             }
         });
 

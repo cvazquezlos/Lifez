@@ -28,16 +28,16 @@ public class HealthActivity3 extends AppCompatActivity {
         Button changeScreen = (Button) findViewById(R.id.next_button);
         changeScreen.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                Intent sportScreen2 = new Intent(view.getContext(), HealthActivity4.class);
-                startActivityForResult(sportScreen2, 0);
+                Intent sportScreen3 = new Intent(view.getContext(), HealthActivity4.class);
+                startActivityForResult(sportScreen3, 0);
             }
         });
 
         ImageButton homeScreen = (ImageButton) findViewById(R.id.home_button);
         homeScreen.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                Intent sportScreen2 = new Intent(view.getContext(), MainActivity.class);
-                startActivityForResult(sportScreen2, 0);
+                Intent homescreen = new Intent(view.getContext(), MainActivity.class);
+                startActivityForResult(homescreen, 0);
             }
         });
 

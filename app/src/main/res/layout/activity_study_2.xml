@@ -8,14 +8,14 @@
     android:layout_marginRight="10dp"
     android:layout_marginTop="10dp"
     android:orientation="vertical"
-    tools:context=".HealthActivity1">
+    tools:context=".StudyActivity2">
 
     <TextView
         android:id="@+id/title_text_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="5dp"
-        android:text="Mejora tu salud"
+        android:text="Mejora tus estudios"
         android:textSize="25sp"
         android:textStyle="bold" />
 
@@ -25,7 +25,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/title_text_view"
         android:layout_marginBottom="2dp"
-        android:text="1. Come 5 veces al día"
+        android:text="2. Realiza tus propios apuntes"
         android:textSize="16dp" />
 
     <View
@@ -43,10 +43,6 @@
         android:layout_below="@id/line_view"
         android:text="Descripción Descripción Descripción Descripción Descripción Descripción Descripción Descripción Descripción Descripción Descripción Descripción Descripción Descripción Descripción Descripción Descripción Descripción Descripción Descripción Descripción Descripción Descripción Descripción Descripción Descripción Descripción Descripción Descripción Descripción Descripción Descripción Descripción Descripción Descripción Descripción Descripción Descripción Descripción" />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -54,7 +50,7 @@
         android:layout_centerHorizontal="true">
 
         <Button
-            android:id="@+id/home_button"
+            android:id="@+id/return_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Volver" />
@@ -66,5 +62,13 @@
             android:text="Siguiente" />
 
     </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/home_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/ic_home_black_18dp" />
 
 </RelativeLayout>

@@ -36,8 +36,8 @@ public class HealthActivity2 extends AppCompatActivity {
         ImageButton homeScreen = (ImageButton) findViewById(R.id.home_button);
         homeScreen.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                Intent sportScreen2 = new Intent(view.getContext(), MainActivity.class);
-                startActivityForResult(sportScreen2, 0);
+                Intent homescreen = new Intent(view.getContext(), MainActivity.class);
+                startActivityForResult(homescreen, 0);
             }
         });
     }
