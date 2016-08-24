@@ -19,9 +19,13 @@ public class StudyActivity4 extends AppCompatActivity {
         Button returnScreen = (Button) findViewById(R.id.return_button);
         returnScreen.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                Intent intent = new Intent();
-                setResult(RESULT_OK, intent);
-                finish();
+                Intent studyScreen3 = new Intent(view.getContext(), StudyActivity3.class);
+                startActivityForResult(studyScreen3, 0);
+                try {
+                    this.finalize();
+                } catch (Throwable throwable) {
+                    throwable.printStackTrace();
+                }
             }
         });
 

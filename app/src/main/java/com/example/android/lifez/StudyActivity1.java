@@ -15,20 +15,29 @@ public class StudyActivity1 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_study_1);
 
-        Button returnScreen = (Button) findViewById(R.id.home_button);
-        returnScreen.setOnClickListener(new View.OnClickListener() {
+        Button homeScreen = (Button) findViewById(R.id.home_button);
+        homeScreen.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                Intent intent = new Intent();
-                setResult(RESULT_OK, intent);
-                finish();
+                Intent homescreen = new Intent(view.getContext(), MainActivity.class);
+                startActivityForResult(homescreen, 0);
+                try {
+                    this.finalize();
+                } catch (Throwable throwable) {
+                    throwable.printStackTrace();
+                }
             }
         });
 
         Button changeScreen = (Button) findViewById(R.id.next_button);
         changeScreen.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                Intent studyScreen1 = new Intent(view.getContext(), StudyActivity2.class);
-                startActivityForResult(studyScreen1, 0);
+                Intent studyScreen2 = new Intent(view.getContext(), StudyActivity2.class);
+                startActivityForResult(studyScreen2, 0);
+                try {
+                    this.finalize();
+                } catch (Throwable throwable) {
+                    throwable.printStackTrace();
+                }
             }
         });
     }

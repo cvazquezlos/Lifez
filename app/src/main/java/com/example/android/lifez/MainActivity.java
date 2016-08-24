@@ -19,16 +19,26 @@ public class MainActivity extends AppCompatActivity {
         Button sportScreen = (Button) findViewById(R.id.sport_button);
         sportScreen.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                Intent sportScreen = new Intent(view.getContext(), HealthActivity1.class);
-                startActivityForResult(sportScreen, 0);
+                Intent sportScreen1 = new Intent(view.getContext(), HealthActivity1.class);
+                startActivityForResult(sportScreen1, 0);
+                try {
+                    this.finalize();
+                } catch (Throwable throwable) {
+                    throwable.printStackTrace();
+                }
             }
         });
 
         Button studyScreen = (Button) findViewById(R.id.study_button);
         studyScreen.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                Intent studyScreen = new Intent(view.getContext(), StudyActivity1.class);
-                startActivityForResult(studyScreen, 0);
+                Intent studyScreen1 = new Intent(view.getContext(), StudyActivity1.class);
+                startActivityForResult(studyScreen1, 0);
+                try {
+                    this.finalize();
+                } catch (Throwable throwable) {
+                    throwable.printStackTrace();
+                }
             }
         });
 

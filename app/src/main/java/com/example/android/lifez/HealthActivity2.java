@@ -19,17 +19,26 @@ public class HealthActivity2 extends AppCompatActivity {
         Button returnScreen = (Button) findViewById(R.id.return_button);
         returnScreen.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                Intent intent = new Intent();
-                setResult(RESULT_OK, intent);
-                finish();
+                Intent sportScreen1 = new Intent(view.getContext(), HealthActivity1.class);
+                startActivityForResult(sportScreen1, 0);
+                try {
+                    this.finalize();
+                } catch (Throwable throwable) {
+                    throwable.printStackTrace();
+                }
             }
         });
 
         Button changeScreen = (Button) findViewById(R.id.next_button);
         changeScreen.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                Intent sportScreen2 = new Intent(view.getContext(), HealthActivity3.class);
-                startActivityForResult(sportScreen2, 0);
+                Intent sportScreen3 = new Intent(view.getContext(), HealthActivity3.class);
+                startActivityForResult(sportScreen3, 0);
+                try {
+                    this.finalize();
+                } catch (Throwable throwable) {
+                    throwable.printStackTrace();
+                }
             }
         });
 
@@ -38,6 +47,11 @@ public class HealthActivity2 extends AppCompatActivity {
             public void onClick(View view) {
                 Intent homescreen = new Intent(view.getContext(), MainActivity.class);
                 startActivityForResult(homescreen, 0);
+                try {
+                    this.finalize();
+                } catch (Throwable throwable) {
+                    throwable.printStackTrace();
+                }
             }
         });
     }
