@@ -102,6 +102,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="10dp"
                     android:text="Para acabar, hemos de concluir que una buena comida debe contener líquidos, vitaminas y minerales, ya que somos el 80% agua, y los minerales nos permiten cuidar nuestros huesos y articulaciones." />
+
             </LinearLayout>
 
         </ScrollView>
