@@ -22,82 +22,113 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
-                android:layout_marginBottom="2dp"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginTop="10dp"
                 android:layout_weight="1"
                 android:orientation="vertical">
 
-                <TextView
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="5dp"
-                    android:text="Mejora tu salud"
-                    android:textSize="25sp"
-                    android:textStyle="bold" />
+                    android:background="#FFF"
+                    android:orientation="vertical">
 
-                <TextView
-                    android:layout_width="wrap_content"
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="2dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="10dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"
+                            android:text="Mejora tu salud"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="2dp"
+                            android:text="2. Hidrátate"
+                            android:textSize="16dp" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="2dp"
+                        android:background="#BDBDBD" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="2dp"
-                    android:text="2. Hidrátate"
-                    android:textSize="16dp" />
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
 
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:layout_marginBottom="10dp"
-                    android:layout_marginTop="2dp"
-                    android:background="#BDBDBD" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Somos agua. Como tal, debemos consumirla. Ya sea en la hora del entrenamiento, en las comidas o mientras hacemos alguna otra cosa, debemos distribuir nuestro consumo de agua a lo largo del día, incrementando éste en condiciones de calor y de esfuerzo físico." />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="10dp"
-                    android:text="Somos agua. Como tal, debemos consumirla. Ya sea en la hora del entrenamiento, en las comidas o mientras hacemos alguna otra cosa, debemos distribuir nuestro consumo de agua a lo largo del día, incrementando éste en condiciones de calor y de esfuerzo físico." />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="¿Cómo calcular el agua que hemos de beber? Aplica la siguiente fórmula y podrás obtener, en términos generales, la cantidad de agua que tu cuerpo necesita:" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="10dp"
-                    android:text="¿Cómo calcular el agua que hemos de beber? Aplica la siguiente fórmula y podrás obtener, en términos generales, la cantidad de agua que tu cuerpo necesita:" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="10dp"
+                        android:text="Peso corporal [Kg] * 30 [ml de agua]"
+                        android:textStyle="bold" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_marginBottom="10dp"
-                    android:text="Peso corporal [Kg] * 30 [ml de agua]"
-                    android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Si eres una persona que realiza algún deporte diariamente, entonces debes incrementar tu ingesta de agua. La siguiente fórmula indica la cantidad óptima para deportistas y todo tipo de personas en condiciones de calor, en verano:" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="10dp"
-                    android:text="Si eres una persona que realiza algún deporte diariamente, entonces debes incrementar tu ingesta de agua. La siguiente fórmula indica la cantidad óptima para deportistas y todo tipo de personas en condiciones de calor, en verano:" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="10dp"
+                        android:text="Peso corporal [Kg] * 45 [ml de agua]"
+                        android:textStyle="bold" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_marginBottom="10dp"
-                    android:text="Peso corporal [Kg] * 45 [ml de agua]"
-                    android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Como último punto de este consejo, es recomendable evitar bebidas gaseosas (está demostrada su vinculación con problemas de salud) y bebidas energéticas (por su alto contenido en azúcar, poco favorables)." />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Como último punto de este consejo, es recomendable evitar bebidas gaseosas (está demostrada su vinculación con problemas de salud) y bebidas energéticas (por su alto contenido en azúcar, poco favorables)." />
+                </LinearLayout>
 
             </LinearLayout>
 
         </ScrollView>
 
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#BDBDBD" />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="5dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="2dp"
             android:orientation="horizontal">
 
             <RelativeLayout
@@ -127,6 +158,7 @@
                     android:id="@+id/home_button"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
                     android:src="@drawable/ic_home_black_18dp" />
 
             </RelativeLayout>
