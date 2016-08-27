@@ -22,109 +22,142 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
-                android:layout_marginBottom="2dp"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginTop="10dp"
                 android:layout_weight="1"
                 android:orientation="vertical">
 
-                <TextView
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="5dp"
-                    android:text="Mejora tu salud"
-                    android:textSize="25sp"
-                    android:textStyle="bold" />
+                    android:background="#FFF"
+                    android:orientation="vertical">
 
-                <TextView
-                    android:layout_width="wrap_content"
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="2dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="10dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"
+                            android:text="Mejora tu salud"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="2dp"
+                            android:text="5. ¡Una actitud positiva!"
+                            android:textSize="16dp" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="2dp"
+                        android:background="#BDBDBD" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="2dp"
-                    android:text="5. ¡Una actitud positiva!"
-                    android:textSize="16dp" />
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
 
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:layout_marginBottom="10dp"
-                    android:layout_marginTop="2dp"
-                    android:background="#BDBDBD" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Ya sea en el ámbito cotidiano (con tu familia, amigos y pareja) o en el ámbito profesional, una buena mentalidad, abierta, comprensiva, receptiva y positiva te ayudará a alcanzar todas tus metas." />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="10dp"
-                    android:text="Ya sea en el ámbito cotidiano (con tu familia, amigos y pareja) o en el ámbito profesional, una buena mentalidad, abierta, comprensiva, receptiva y positiva te ayudará a alcanzar todas tus metas." />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="En términos deportivos, apostar por una actitud firme y positiva te ayudará a alcanzar un estado físico óptimo y a plantearte grandes retos y soluciones a los mismos." />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="10dp"
-                    android:text="En términos deportivos, apostar por una actitud firme y positiva te ayudará a alcanzar un estado físico óptimo y a plantearte grandes retos y soluciones a los mismos." />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="¿Necesitas consejos para mantener una actitud positiva? ¡Sigue los siguientes!" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="10dp"
-                    android:text="¿Necesitas consejos para mantener una actitud positiva? ¡Sigue los siguientes!" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="14dp"
+                        android:text="• Controla los pensamientos negativos. No dejes que te invada el derrotismo." />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="10dp"
-                    android:layout_marginLeft="14dp"
-                    android:text="• Controla los pensamientos negativos. No dejes que te invada el derrotismo." />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="14dp"
+                        android:text="• No te dejes influir por las actitudes negativas de otras personas." />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="10dp"
-                    android:layout_marginLeft="14dp"
-                    android:text="• No te dejes influir por las actitudes negativas de otras personas." />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="14dp"
+                        android:text="• Medita. Ayuda a desterrar los pensamientos negativos de nuestra mente y nos permite controlar las emociones." />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="10dp"
-                    android:layout_marginLeft="14dp"
-                    android:text="• Medita. Ayuda a desterrar los pensamientos negativos de nuestra mente y nos permite controlar las emociones." />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="14dp"
+                        android:text="• Rodéate de gente optimista y positiva." />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="10dp"
-                    android:layout_marginLeft="14dp"
-                    android:text="• Rodéate de gente optimista y positiva." />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="14dp"
+                        android:text="• Realiza actividad física. Las endorfinas y la adrenalina mejorarán tu optimismo." />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="10dp"
-                    android:layout_marginLeft="14dp"
-                    android:text="• Realiza actividad física. Las endorfinas y la adrenalina mejorarán tu optimismo." />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="14dp"
+                        android:text="• Duerme bien." />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="10dp"
-                    android:layout_marginLeft="14dp"
-                    android:text="• Duerme bien." />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Puede que en algún momento de tu vida no le logres ver el lado bueno a alguna situación, pero todas lo tienen. Aprende de tus errores y nunca te rindas. ¡Ánimo!" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="10dp"
-                    android:text="Puede que en algún momento de tu vida no le logres ver el lado bueno a alguna situación, pero todas lo tienen. Aprende de tus errores y nunca te rindas. ¡Ánimo!" />
+                </LinearLayout>
 
             </LinearLayout>
 
         </ScrollView>
 
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#BDBDBD" />
+
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal">
+            android:background="#FFF"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="2dp"
+            android:gravity="center_horizontal">
 
             <Button
                 android:id="@+id/return_button"
