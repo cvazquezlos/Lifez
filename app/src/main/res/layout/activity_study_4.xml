@@ -22,56 +22,86 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
-                android:layout_marginBottom="2dp"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginTop="10dp"
                 android:layout_weight="1"
                 android:orientation="vertical">
 
-                <TextView
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="5dp"
-                    android:text="Mejora tus estudios"
-                    android:textSize="25sp"
-                    android:textStyle="bold" />
+                    android:background="#FFF"
+                    android:orientation="vertical">
 
-                <TextView
-                    android:layout_width="wrap_content"
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="2dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="10dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"
+                            android:text="Mejora tus estudios"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="2dp"
+                            android:text="4. Organiza el tiempo de forma eficiente"
+                            android:textSize="16dp" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="2dp"
+                        android:background="#BDBDBD" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="2dp"
-                    android:text="4. Organiza el tiempo de forma eficiente"
-                    android:textSize="16dp" />
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
 
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:layout_marginBottom="10dp"
-                    android:layout_marginTop="2dp"
-                    android:background="#BDBDBD" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Organizarse es esencial en todos los ámbitos de la vida. Te permitirá aprovechar de forma eficiente cada minuto de tu tiempo para sacarle el máximo provecho. En lo que al estudio se refiere, te permitirá ahorrarte estudiar los días de antes durante todo el día, si racionas el estudio durante todos los días a lo largo de las semanas." />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="10dp"
-                    android:text="Organizarse es esencial en todos los ámbitos de la vida. Te permitirá aprovechar de forma eficiente cada minuto de tu tiempo para sacarle el máximo provecho. En lo que al estudio se refiere, te permitirá ahorrarte estudiar los días de antes durante todo el día, si racionas el estudio durante todos los días a lo largo de las semanas." />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Para organizarte, plantéate objetivos concretos para saber qué camino tomar. También puede ayudarte analizar a qué dedicas tu tiempo, y qué cosas podrías dejar a un lado para centrarte en otras más importantes." />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="10dp"
-                    android:text="Para organizarte, plantéate objetivos concretos para saber qué camino tomar. También puede ayudarte analizar a qué dedicas tu tiempo, y qué cosas podrías dejar a un lado para centrarte en otras más importantes." />
-
+                </LinearLayout>
 
             </LinearLayout>
 
         </ScrollView>
 
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#BDBDBD" />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="5dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="2dp"
             android:orientation="horizontal">
 
             <RelativeLayout
@@ -101,6 +131,7 @@
                     android:id="@+id/home_button"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
                     android:src="@drawable/ic_home_black_18dp" />
 
             </RelativeLayout>

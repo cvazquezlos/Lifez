@@ -22,89 +22,120 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
-                android:layout_marginBottom="2dp"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginTop="10dp"
                 android:layout_weight="1"
                 android:orientation="vertical">
 
-                <TextView
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="5dp"
-                    android:text="Mejora tus estudios"
-                    android:textSize="25sp"
-                    android:textStyle="bold" />
+                    android:background="#FFF"
+                    android:orientation="vertical">
 
-                <TextView
-                    android:layout_width="wrap_content"
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="2dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="10dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"
+                            android:text="Mejora tus estudios"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="2dp"
+                            android:text="3. Pon en práctica la técnica del brainstorming"
+                            android:textSize="16dp" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="2dp"
+                        android:background="#BDBDBD" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="2dp"
-                    android:text="3. Pon en práctica la técnica del brainstorming"
-                    android:textSize="16dp" />
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
 
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:layout_marginBottom="10dp"
-                    android:layout_marginTop="2dp"
-                    android:background="#BDBDBD" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_height="wrap_content"
+                        android:text="Esta peculiar herramienta fue desarrollada en 1919 por Alex Faickney Osborn, y facilita el surgimiento de nuevas ideas sobre un tema o problema determinado." />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_marginBottom="10dp"
-                    android:layout_height="wrap_content"
-                    android:text="Esta peculiar herramienta fue desarrollada en 1919 por Alex Faickney Osborn, y facilita el surgimiento de nuevas ideas sobre un tema o problema determinado." />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Esta técnica contiene un total de cuatro reglas básicas:" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="10dp"
-                    android:text="Esta técnica contiene un total de cuatro reglas básicas:" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="14dp"
+                        android:text="1. Suspende el juicio. Cuando compartas ideas no incluyas comentarios críticos. La evaluación déjala para después." />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="10dp"
-                    android:layout_marginLeft="14dp"
-                    android:text="1. Suspende el juicio. Cuando compartas ideas no incluyas comentarios críticos. La evaluación déjala para después." />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="14dp"
+                        android:text="2. Piensa libremente. Es muy importante la libertad de emisión. Las ideas imposibles o inimaginables son totalmente aceptables." />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="10dp"
-                    android:layout_marginLeft="14dp"
-                    android:text="2. Piensa libremente. Es muy importante la libertad de emisión. Las ideas imposibles o inimaginables son totalmente aceptables." />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="14dp"
+                        android:text="3. La cantidad es importante. Cuantas más ideas puedas poner sobre la mesa, mejor." />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="10dp"
-                    android:layout_marginLeft="14dp"
-                    android:text="3. La cantidad es importante. Cuantas más ideas puedas poner sobre la mesa, mejor." />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="14dp"
+                        android:text="4. El efecto multiplicador. Hemos de buscar combinar ideas y mejorarlas. Utiliza las ideas de los demás como estímulo para tu mejora o variación." />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="10dp"
-                    android:layout_marginLeft="14dp"
-                    android:text="4. El efecto multiplicador. Hemos de buscar combinar ideas y mejorarlas. Utiliza las ideas de los demás como estímulo para tu mejora o variación." />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Además, existe una gran variedad de modalidades de brainstorming dependiendo de las circunstancias. De acuerdo a los estudios, esta técnica puede ser útil para repasar con tus compañeros la teoría estudiada antes de un examen, por ejemplo." />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="10dp"
-                    android:text="Además, existe una gran variedad de modalidades de brainstorming dependiendo de las circunstancias. De acuerdo a los estudios, esta técnica puede ser útil para repasar con tus compañeros la teoría estudiada antes de un examen, por ejemplo." />
+                </LinearLayout>
 
             </LinearLayout>
 
         </ScrollView>
 
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#BDBDBD" />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="5dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="2dp"
             android:orientation="horizontal">
 
             <RelativeLayout
@@ -134,6 +165,7 @@
                     android:id="@+id/home_button"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
                     android:src="@drawable/ic_home_black_18dp" />
 
             </RelativeLayout>
