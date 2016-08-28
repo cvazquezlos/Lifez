@@ -77,67 +77,77 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Dormir nos ayuda a mantener mente y cuerpo sanos. Además, evita enfermar frecuentemente, reducir el riesgo de padecer diabetes y presión arterial alta, el estrés y mejorar el estado de ánimo, entre muchos otros beneficios." />
+                        android:text="Dormir nos ayuda a mantener mente y cuerpo sanos. Además, evita enfermar frecuentemente, reducir el riesgo de padecer diabetes y presión arterial alta, el estrés y mejorar el estado de ánimo, entre muchos otros beneficios."
+                        android:textSize="15dp" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Sin embargo, dormir más de 8 horas no nos aporta beneficios &quot;extra&quot;." />
+                        android:text="Sin embargo, dormir más de 8 horas no nos aporta beneficios &quot;extra&quot;."
+                        android:textSize="15dp" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Si no puedes dormir, sigue los siguientes consejos:" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="10dp"
-                        android:layout_marginLeft="14dp"
-                        android:text="• Establécete un horario fijo para dormir." />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="10dp"
-                        android:layout_marginLeft="14dp"
-                        android:text="• Evita la cafeína por la tarde y, por supuesto, por la noche." />
+                        android:text="Si no puedes dormir, sigue los siguientes consejos:"
+                        android:textSize="15dp" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
                         android:layout_marginLeft="14dp"
-                        android:text="• Date un baño de agua caliente antes de dormir, ayudará a relajarte." />
+                        android:text="• Establécete un horario fijo para dormir."
+                        android:textSize="15dp" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
                         android:layout_marginLeft="14dp"
-                        android:text="• Haz ejercicio durante el día, así llegarás más cansado a dormir." />
+                        android:text="• Evita la cafeína por la tarde y, por supuesto, por la noche."
+                        android:textSize="15dp" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
                         android:layout_marginLeft="14dp"
-                        android:text="• Evita comidas copiosas durante el día y antes de ir a dormir." />
+                        android:text="• Date un baño de agua caliente antes de dormir, ayudará a relajarte."
+                        android:textSize="15dp" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
                         android:layout_marginLeft="14dp"
-                        android:text="• Evita fumar. La nicotina de los cigarros puede hacer que te resulte más difícil conciliar el sueño." />
+                        android:text="• Haz ejercicio durante el día, así llegarás más cansado a dormir."
+                        android:textSize="15dp" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="El ambiente en el que deseas dormir también hace su efecto positivo o negativo sobre la misma acción. Procura dormir en un lugar silencioso, oscuro y bien ventilado. Además, como recomendación, puedes dejar a un lado todos los aparatos electrónicos." />
+                        android:layout_marginLeft="14dp"
+                        android:text="• Evita comidas copiosas durante el día y antes de ir a dormir."
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="14dp"
+                        android:text="• Evita fumar. La nicotina de los cigarros puede hacer que te resulte más difícil conciliar el sueño."
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="20dp"
+                        android:text="El ambiente en el que deseas dormir también hace su efecto positivo o negativo sobre la misma acción. Procura dormir en un lugar silencioso, oscuro y bien ventilado. Además, como recomendación, puedes dejar a un lado todos los aparatos electrónicos."
+                        android:textSize="15dp" />
 
                 </LinearLayout>
 
@@ -170,13 +180,15 @@
                         android:id="@+id/return_button"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Volver" />
+                        android:text="Volver"
+                        android:textSize="17dp" />
 
                     <Button
                         android:id="@+id/next_button"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Siguiente" />
+                        android:text="Siguiente"
+                        android:textSize="17dp" />
 
                 </LinearLayout>
 

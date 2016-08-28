@@ -77,13 +77,15 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Somos agua. Como tal, debemos consumirla. Ya sea en la hora del entrenamiento, en las comidas o mientras hacemos alguna otra cosa, debemos distribuir nuestro consumo de agua a lo largo del día, incrementando éste en condiciones de calor y de esfuerzo físico." />
+                        android:text="Somos agua. Como tal, debemos consumirla. Ya sea en la hora del entrenamiento, en las comidas o mientras hacemos alguna otra cosa, debemos distribuir nuestro consumo de agua a lo largo del día, incrementando éste en condiciones de calor y de esfuerzo físico."
+                        android:textSize="15dp" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="¿Cómo calcular el agua que hemos de beber? Aplica la siguiente fórmula y podrás obtener, en términos generales, la cantidad de agua que tu cuerpo necesita:" />
+                        android:text="¿Cómo calcular el agua que hemos de beber? Aplica la siguiente fórmula y podrás obtener, en términos generales, la cantidad de agua que tu cuerpo necesita:"
+                        android:textSize="15dp" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -91,13 +93,15 @@
                         android:layout_gravity="center_horizontal"
                         android:layout_marginBottom="10dp"
                         android:text="Peso corporal [Kg] * 30 [ml de agua]"
+                        android:textSize="15dp"
                         android:textStyle="bold" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Si eres una persona que realiza algún deporte diariamente, entonces debes incrementar tu ingesta de agua. La siguiente fórmula indica la cantidad óptima para deportistas y todo tipo de personas en condiciones de calor, en verano:" />
+                        android:text="Si eres una persona que realiza algún deporte diariamente, entonces debes incrementar tu ingesta de agua. La siguiente fórmula indica la cantidad óptima para deportistas y todo tipo de personas en condiciones de calor, en verano:"
+                        android:textSize="15dp" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -105,13 +109,15 @@
                         android:layout_gravity="center_horizontal"
                         android:layout_marginBottom="10dp"
                         android:text="Peso corporal [Kg] * 45 [ml de agua]"
+                        android:textSize="15dp"
                         android:textStyle="bold" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="20dp"
-                        android:text="Como último punto de este consejo, es recomendable evitar bebidas gaseosas (está demostrada su vinculación con problemas de salud) y bebidas energéticas (por su alto contenido en azúcar, poco favorables)." />
+                        android:text="Como último punto de este consejo, es recomendable evitar bebidas gaseosas (está demostrada su vinculación con problemas de salud) y bebidas energéticas (por su alto contenido en azúcar, poco favorables)."
+                        android:textSize="15dp" />
 
                 </LinearLayout>
 
@@ -144,13 +150,15 @@
                         android:id="@+id/return_button"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Volver" />
+                        android:text="Volver"
+                        android:textSize="17dp" />
 
                     <Button
                         android:id="@+id/next_button"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Siguiente" />
+                        android:text="Siguiente"
+                        android:textSize="17dp" />
 
                 </LinearLayout>
 

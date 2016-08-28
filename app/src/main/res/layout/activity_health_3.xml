@@ -77,13 +77,15 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Las autoridades recomiendan la realización de, al menos, 150 minutos semanales de deporte, lo que supone, al menos, 30 minutos de ejercicio moderado, 5 días a la semana, lo que no supone demasiado tiempo, pero que es importante para la salud." />
+                        android:text="Las autoridades recomiendan la realización de, al menos, 150 minutos semanales de deporte, lo que supone, al menos, 30 minutos de ejercicio moderado, 5 días a la semana, lo que no supone demasiado tiempo, pero que es importante para la salud."
+                        android:textSize="15dp" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginBottom="10dp"
-                        android:text="Expertos como Casajús mencionan que 30 minutos diarios de ejercicio ofrece una protección frente a las enfermedades no transmisibles de un 30%. Además, en la gente que planifica sus ejercicios y que sigue una rutina planificada, esta protección se eleva a un 50%." />
+                        android:layout_marginBottom="20dp"
+                        android:text="Expertos como Casajús mencionan que 30 minutos diarios de ejercicio ofrece una protección frente a las enfermedades no transmisibles de un 30%. Además, en la gente que planifica sus ejercicios y que sigue una rutina planificada, esta protección se eleva a un 50%."
+                        android:textSize="15dp" />
 
                 </LinearLayout>
 
@@ -116,13 +118,15 @@
                         android:id="@+id/return_button"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Volver" />
+                        android:text="Volver"
+                        android:textSize="17dp" />
 
                     <Button
                         android:id="@+id/next_button"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Siguiente" />
+                        android:text="Siguiente"
+                        android:textSize="17dp" />
 
                 </LinearLayout>
 

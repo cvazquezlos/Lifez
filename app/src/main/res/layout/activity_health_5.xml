@@ -77,67 +77,77 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Ya sea en el ámbito cotidiano (con tu familia, amigos y pareja) o en el ámbito profesional, una buena mentalidad, abierta, comprensiva, receptiva y positiva te ayudará a alcanzar todas tus metas." />
+                        android:text="Ya sea en el ámbito cotidiano (con tu familia, amigos y pareja) o en el ámbito profesional, una buena mentalidad, abierta, comprensiva, receptiva y positiva te ayudará a alcanzar todas tus metas."
+                        android:textSize="15dp" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="En términos deportivos, apostar por una actitud firme y positiva te ayudará a alcanzar un estado físico óptimo y a plantearte grandes retos y soluciones a los mismos." />
+                        android:text="En términos deportivos, apostar por una actitud firme y positiva te ayudará a alcanzar un estado físico óptimo y a plantearte grandes retos y soluciones a los mismos."
+                        android:textSize="15dp" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="¿Necesitas consejos para mantener una actitud positiva? ¡Sigue los siguientes!" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="10dp"
-                        android:layout_marginLeft="14dp"
-                        android:text="• Controla los pensamientos negativos. No dejes que te invada el derrotismo." />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="10dp"
-                        android:layout_marginLeft="14dp"
-                        android:text="• No te dejes influir por las actitudes negativas de otras personas." />
+                        android:text="¿Necesitas consejos para mantener una actitud positiva? ¡Sigue los siguientes!"
+                        android:textSize="15dp" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
                         android:layout_marginLeft="14dp"
-                        android:text="• Medita. Ayuda a desterrar los pensamientos negativos de nuestra mente y nos permite controlar las emociones." />
+                        android:text="• Controla los pensamientos negativos. No dejes que te invada el derrotismo."
+                        android:textSize="15dp" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
                         android:layout_marginLeft="14dp"
-                        android:text="• Rodéate de gente optimista y positiva." />
+                        android:text="• No te dejes influir por las actitudes negativas de otras personas."
+                        android:textSize="15dp" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
                         android:layout_marginLeft="14dp"
-                        android:text="• Realiza actividad física. Las endorfinas y la adrenalina mejorarán tu optimismo." />
+                        android:text="• Medita. Ayuda a desterrar los pensamientos negativos de nuestra mente y nos permite controlar las emociones."
+                        android:textSize="15dp" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
                         android:layout_marginLeft="14dp"
-                        android:text="• Duerme bien." />
+                        android:text="• Rodéate de gente optimista y positiva."
+                        android:textSize="15dp" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Puede que en algún momento de tu vida no le logres ver el lado bueno a alguna situación, pero todas lo tienen. Aprende de tus errores y nunca te rindas. ¡Ánimo!" />
+                        android:layout_marginLeft="14dp"
+                        android:text="• Realiza actividad física. Las endorfinas y la adrenalina mejorarán tu optimismo."
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="14dp"
+                        android:text="• Duerme bien."
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="20dp"
+                        android:text="Puede que en algún momento de tu vida no le logres ver el lado bueno a alguna situación, pero todas lo tienen. Aprende de tus errores y nunca te rindas. ¡Ánimo!"
+                        android:textSize="15dp" />
 
                 </LinearLayout>
 
@@ -162,13 +172,15 @@
                 android:id="@+id/return_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Volver" />
+                android:text="Volver"
+                android:textSize="17dp" />
 
             <Button
                 android:id="@+id/home_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Inicio" />
+                android:text="Inicio"
+                android:textSize="17dp" />
 
         </LinearLayout>
 

@@ -79,53 +79,61 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Todos los grandes nutricionistas recomiendan fragmentar las comidas diarias en 5 ó 6. El motivo es sencillo; a diferencia de si comemos 3 veces al día, hacer más comidas con menos cantidad de comida en cada una de ellas nos va a permitir comer menos, y, por lo tanto, consumir menos calorías." />
+                        android:text="Todos los grandes nutricionistas recomiendan fragmentar las comidas diarias en 5 ó 6. El motivo es sencillo; a diferencia de si comemos 3 veces al día, hacer más comidas con menos cantidad de comida en cada una de ellas nos va a permitir comer menos, y, por lo tanto, consumir menos calorías."
+                        android:textSize="15dp" />
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Tu cuerpo es previsor, es decir, cuando no le das los alimentos con regularidad, guarda reservas y éstas se convierten en grasa." />
+                        android:text="Tu cuerpo es previsor, es decir, cuando no le das los alimentos con regularidad, guarda reservas y éstas se convierten en grasa."
+                        android:textSize="15dp" />
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Además, en cada comida deberás consumir los siguientes macronutrientes (nutrientes que suministran la mayor parte de la energía metabólica del organismo):" />
+                        android:text="Además, en cada comida deberás consumir los siguientes macronutrientes (nutrientes que suministran la mayor parte de la energía metabólica del organismo):"
+                        android:textSize="15dp" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
                         android:layout_marginLeft="14dp"
-                        android:text="1. Proteína: Puede derivar de lácteos, carnes y sus derivados. También de huevos, frutas y verduras, además de las legumbres. Es el macronutriente más importante." />
+                        android:text="1. Proteína: Puede derivar de lácteos, carnes y sus derivados. También de huevos, frutas y verduras, además de las legumbres. Es el macronutriente más importante."
+                        android:textSize="15dp" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
                         android:layout_marginLeft="14dp"
-                        android:text="2. Hidratos de carbono: Provistos por el pan, galletas, cereales, harinas y derivados, pastas u otros. Ayudan a adquirir peso y son un buen aporte energético." />
+                        android:text="2. Hidratos de carbono: Provistos por el pan, galletas, cereales, harinas y derivados, pastas u otros. Ayudan a adquirir peso y son un buen aporte energético."
+                        android:textSize="15dp" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
                         android:layout_marginLeft="14dp"
-                        android:text="3. Lípidos insaturados: Derivan del aceite de oliva, frutos secos o del aguacate. También del pescado azul. Son grasas no saturadas y, por lo tanto, no son dañinas para nuestro organismo." />
+                        android:text="3. Lípidos insaturados: Derivan del aceite de oliva, frutos secos o del aguacate. También del pescado azul. Son grasas no saturadas y, por lo tanto, no son dañinas para nuestro organismo."
+                        android:textSize="15dp" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
                         android:layout_marginLeft="14dp"
-                        android:text="4. Lípidos saturados: Grasas saturadas y, algo que debemos evitar si no queremos engordar. Son éstas las grasas saturadas." />
+                        android:text="4. Lípidos saturados: Grasas saturadas y, algo que debemos evitar si no queremos engordar. Son éstas las grasas saturadas."
+                        android:textSize="15dp" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="20dp"
-                        android:text="Para acabar, hemos de concluir que una buena comida debe contener líquidos, vitaminas y minerales, ya que somos el 80% agua, y los minerales nos permiten cuidar nuestros huesos y articulaciones." />
+                        android:text="Para acabar, hemos de concluir que una buena comida debe contener líquidos, vitaminas y minerales, ya que somos el 80% agua, y los minerales nos permiten cuidar nuestros huesos y articulaciones."
+                        android:textSize="15dp" />
 
                 </LinearLayout>
 
@@ -150,13 +158,15 @@
                 android:id="@+id/home_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Volver" />
+                android:text="Volver"
+                android:textSize="17dp" />
 
             <Button
                 android:id="@+id/next_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Siguiente" />
+                android:text="Siguiente"
+                android:textSize="17dp" />
 
         </LinearLayout>
 

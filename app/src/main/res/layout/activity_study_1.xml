@@ -77,46 +77,53 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Un punto de partida cuando queremos estudiar la teoría de un libro o de unos apuntes es subrayarlos." />
+                        android:text="Un punto de partida cuando queremos estudiar la teoría de un libro o de unos apuntes es subrayarlos."
+                        android:textSize="15dp" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Éste es el apartado más importante para sintetizar textos, ya que desarrolla la atención y la concentración en el trabajo. Aumenta también la comprensión lectora y el aprendizaje y memorización de lo estudiado." />
+                        android:text="Éste es el apartado más importante para sintetizar textos, ya que desarrolla la atención y la concentración en el trabajo. Aumenta también la comprensión lectora y el aprendizaje y memorización de lo estudiado."
+                        android:textSize="15dp" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="¿Cómo hacer un subrayado correcto?" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="10dp"
-                        android:layout_marginLeft="14dp"
-                        android:text="1. Utiliza una regla y un lápiz con punta fina." />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="10dp"
-                        android:layout_marginLeft="14dp"
-                        android:text="2. Lee primero lo que deseas subrayar detenidamente." />
+                        android:text="¿Cómo hacer un subrayado correcto?"
+                        android:textSize="15dp" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
                         android:layout_marginLeft="14dp"
-                        android:text="3. Realiza esta vez otra suma detenida, con el lápiz y la regla, y subraya las ideas más importantes." />
+                        android:text="1. Utiliza una regla y un lápiz con punta fina."
+                        android:textSize="15dp" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Este subrayado, además, puede complementarse con anotaciones en el margen." />
+                        android:layout_marginLeft="14dp"
+                        android:text="2. Lee primero lo que deseas subrayar detenidamente."
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="14dp"
+                        android:text="3. Realiza esta vez otra suma detenida, con el lápiz y la regla, y subraya las ideas más importantes."
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="20dp"
+                        android:text="Este subrayado, además, puede complementarse con anotaciones en el margen."
+                        android:textSize="15dp" />
 
                 </LinearLayout>
 
@@ -141,13 +148,15 @@
                 android:id="@+id/home_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Volver" />
+                android:text="Volver"
+                android:textSize="17dp" />
 
             <Button
                 android:id="@+id/next_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Siguiente" />
+                android:text="Siguiente"
+                android:textSize="17dp" />
 
         </LinearLayout>
 

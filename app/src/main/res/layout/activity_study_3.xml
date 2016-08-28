@@ -77,47 +77,54 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Esta peculiar herramienta fue desarrollada en 1919 por Alex Faickney Osborn, y facilita el surgimiento de nuevas ideas sobre un tema o problema determinado." />
+                        android:text="Esta peculiar herramienta fue desarrollada en 1919 por Alex Faickney Osborn, y facilita el surgimiento de nuevas ideas sobre un tema o problema determinado."
+                        android:textSize="15dp" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Esta técnica contiene un total de cuatro reglas básicas:" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="10dp"
-                        android:layout_marginLeft="14dp"
-                        android:text="1. Suspende el juicio. Cuando compartas ideas no incluyas comentarios críticos. La evaluación déjala para después." />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="10dp"
-                        android:layout_marginLeft="14dp"
-                        android:text="2. Piensa libremente. Es muy importante la libertad de emisión. Las ideas imposibles o inimaginables son totalmente aceptables." />
+                        android:text="Esta técnica contiene un total de cuatro reglas básicas:"
+                        android:textSize="15dp" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
                         android:layout_marginLeft="14dp"
-                        android:text="3. La cantidad es importante. Cuantas más ideas puedas poner sobre la mesa, mejor." />
+                        android:text="1. Suspende el juicio. Cuando compartas ideas no incluyas comentarios críticos. La evaluación déjala para después."
+                        android:textSize="15dp" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
                         android:layout_marginLeft="14dp"
-                        android:text="4. El efecto multiplicador. Hemos de buscar combinar ideas y mejorarlas. Utiliza las ideas de los demás como estímulo para tu mejora o variación." />
+                        android:text="2. Piensa libremente. Es muy importante la libertad de emisión. Las ideas imposibles o inimaginables son totalmente aceptables."
+                        android:textSize="15dp" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Además, existe una gran variedad de modalidades de brainstorming dependiendo de las circunstancias. De acuerdo a los estudios, esta técnica puede ser útil para repasar con tus compañeros la teoría estudiada antes de un examen, por ejemplo." />
+                        android:layout_marginLeft="14dp"
+                        android:text="3. La cantidad es importante. Cuantas más ideas puedas poner sobre la mesa, mejor."
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="14dp"
+                        android:text="4. El efecto multiplicador. Hemos de buscar combinar ideas y mejorarlas. Utiliza las ideas de los demás como estímulo para tu mejora o variación."
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="20dp"
+                        android:text="Además, existe una gran variedad de modalidades de brainstorming dependiendo de las circunstancias. De acuerdo a los estudios, esta técnica puede ser útil para repasar con tus compañeros la teoría estudiada antes de un examen, por ejemplo."
+                        android:textSize="15dp" />
 
                 </LinearLayout>
 
@@ -150,13 +157,15 @@
                         android:id="@+id/return_button"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Volver" />
+                        android:text="Volver"
+                        android:textSize="17dp" />
 
                     <Button
                         android:id="@+id/next_button"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Siguiente" />
+                        android:text="Siguiente"
+                        android:textSize="17dp" />
 
                 </LinearLayout>
 

@@ -77,13 +77,15 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Organizarse es esencial en todos los ámbitos de la vida. Te permitirá aprovechar de forma eficiente cada minuto de tu tiempo para sacarle el máximo provecho. En lo que al estudio se refiere, te permitirá ahorrarte estudiar los días de antes durante todo el día, si racionas el estudio durante todos los días a lo largo de las semanas." />
+                        android:text="Organizarse es esencial en todos los ámbitos de la vida. Te permitirá aprovechar de forma eficiente cada minuto de tu tiempo para sacarle el máximo provecho. En lo que al estudio se refiere, te permitirá ahorrarte estudiar los días de antes durante todo el día, si racionas el estudio durante todos los días a lo largo de las semanas."
+                        android:textSize="15dp" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginBottom="10dp"
-                        android:text="Para organizarte, plantéate objetivos concretos para saber qué camino tomar. También puede ayudarte analizar a qué dedicas tu tiempo, y qué cosas podrías dejar a un lado para centrarte en otras más importantes." />
+                        android:layout_marginBottom="20dp"
+                        android:text="Para organizarte, plantéate objetivos concretos para saber qué camino tomar. También puede ayudarte analizar a qué dedicas tu tiempo, y qué cosas podrías dejar a un lado para centrarte en otras más importantes."
+                        android:textSize="15dp" />
 
                 </LinearLayout>
 
@@ -116,13 +118,15 @@
                         android:id="@+id/return_button"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Volver" />
+                        android:text="Volver"
+                        android:textSize="17dp" />
 
                     <Button
                         android:id="@+id/next_button"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Siguiente" />
+                        android:text="Siguiente"
+                        android:textSize="17dp" />
 
                 </LinearLayout>
 
