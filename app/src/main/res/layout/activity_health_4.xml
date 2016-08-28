@@ -7,7 +7,9 @@
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background_health_4" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -40,6 +42,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="5dp"
                         android:text="Mejora tu salud"
+                        android:textColor="#616161"
                         android:textSize="25sp"
                         android:textStyle="bold" />
 
@@ -48,6 +51,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="2dp"
                         android:text="4. Descansa. Duerme al menos 8 horas al día."
+                        android:textColor="#616161"
                         android:textSize="16dp" />
 
                 </LinearLayout>
@@ -78,6 +82,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
                         android:text="Dormir nos ayuda a mantener mente y cuerpo sanos. Además, evita enfermar frecuentemente, reducir el riesgo de padecer diabetes y presión arterial alta, el estrés y mejorar el estado de ánimo, entre muchos otros beneficios."
+                        android:textColor="#FFF"
                         android:textSize="15dp" />
 
                     <TextView
@@ -85,6 +90,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
                         android:text="Sin embargo, dormir más de 8 horas no nos aporta beneficios &quot;extra&quot;."
+                        android:textColor="#FFF"
                         android:textSize="15dp" />
 
                     <TextView
@@ -92,6 +98,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
                         android:text="Si no puedes dormir, sigue los siguientes consejos:"
+                        android:textColor="#FFF"
                         android:textSize="15dp" />
 
                     <TextView
@@ -100,6 +107,7 @@
                         android:layout_marginBottom="10dp"
                         android:layout_marginLeft="14dp"
                         android:text="• Establécete un horario fijo para dormir."
+                        android:textColor="#FFF"
                         android:textSize="15dp" />
 
                     <TextView
@@ -108,6 +116,7 @@
                         android:layout_marginBottom="10dp"
                         android:layout_marginLeft="14dp"
                         android:text="• Evita la cafeína por la tarde y, por supuesto, por la noche."
+                        android:textColor="#FFF"
                         android:textSize="15dp" />
 
                     <TextView
@@ -116,6 +125,7 @@
                         android:layout_marginBottom="10dp"
                         android:layout_marginLeft="14dp"
                         android:text="• Date un baño de agua caliente antes de dormir, ayudará a relajarte."
+                        android:textColor="#FFF"
                         android:textSize="15dp" />
 
                     <TextView
@@ -124,6 +134,7 @@
                         android:layout_marginBottom="10dp"
                         android:layout_marginLeft="14dp"
                         android:text="• Haz ejercicio durante el día, así llegarás más cansado a dormir."
+                        android:textColor="#FFF"
                         android:textSize="15dp" />
 
                     <TextView
@@ -132,6 +143,7 @@
                         android:layout_marginBottom="10dp"
                         android:layout_marginLeft="14dp"
                         android:text="• Evita comidas copiosas durante el día y antes de ir a dormir."
+                        android:textColor="#FFF"
                         android:textSize="15dp" />
 
                     <TextView
@@ -140,6 +152,7 @@
                         android:layout_marginBottom="10dp"
                         android:layout_marginLeft="14dp"
                         android:text="• Evita fumar. La nicotina de los cigarros puede hacer que te resulte más difícil conciliar el sueño."
+                        android:textColor="#FFF"
                         android:textSize="15dp" />
 
                     <TextView
@@ -147,6 +160,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="20dp"
                         android:text="El ambiente en el que deseas dormir también hace su efecto positivo o negativo sobre la misma acción. Procura dormir en un lugar silencioso, oscuro y bien ventilado. Además, como recomendación, puedes dejar a un lado todos los aparatos electrónicos."
+                        android:textColor="#FFF"
                         android:textSize="15dp" />
 
                 </LinearLayout>
@@ -158,18 +172,20 @@
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
+            android:layout_marginTop="5dp"
             android:background="#BDBDBD" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="2dp"
-            android:layout_marginTop="3dp"
+            android:background="#FFF"
             android:orientation="horizontal">
 
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp">
 
                 <LinearLayout
                     android:layout_width="wrap_content"

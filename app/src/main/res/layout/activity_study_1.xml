@@ -5,13 +5,10 @@
     android:layout_height="match_parent"
     tools:context=".StudyActivity1">
 
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#F5F5F5"
         android:orientation="vertical">
 
         <LinearLayout
@@ -40,6 +37,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="5dp"
                         android:text="Mejora tus estudios"
+                        android:textColor="#616161"
                         android:textSize="25sp"
                         android:textStyle="bold" />
 
@@ -48,6 +46,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="2dp"
                         android:text="1. Subraya toda la teoría"
+                        android:textColor="#616161"
                         android:textSize="16dp" />
 
                 </LinearLayout>
@@ -78,6 +77,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
                         android:text="Un punto de partida cuando queremos estudiar la teoría de un libro o de unos apuntes es subrayarlos."
+                        android:textColor="#616161"
                         android:textSize="15dp" />
 
                     <TextView
@@ -85,6 +85,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
                         android:text="Éste es el apartado más importante para sintetizar textos, ya que desarrolla la atención y la concentración en el trabajo. Aumenta también la comprensión lectora y el aprendizaje y memorización de lo estudiado."
+                        android:textColor="#616161"
                         android:textSize="15dp" />
 
                     <TextView
@@ -92,6 +93,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
                         android:text="¿Cómo hacer un subrayado correcto?"
+                        android:textColor="#616161"
                         android:textSize="15dp" />
 
                     <TextView
@@ -100,6 +102,7 @@
                         android:layout_marginBottom="10dp"
                         android:layout_marginLeft="14dp"
                         android:text="1. Utiliza una regla y un lápiz con punta fina."
+                        android:textColor="#616161"
                         android:textSize="15dp" />
 
                     <TextView
@@ -108,6 +111,7 @@
                         android:layout_marginBottom="10dp"
                         android:layout_marginLeft="14dp"
                         android:text="2. Lee primero lo que deseas subrayar detenidamente."
+                        android:textColor="#616161"
                         android:textSize="15dp" />
 
                     <TextView
@@ -116,6 +120,7 @@
                         android:layout_marginBottom="10dp"
                         android:layout_marginLeft="14dp"
                         android:text="3. Realiza esta vez otra suma detenida, con el lápiz y la regla, y subraya las ideas más importantes."
+                        android:textColor="#616161"
                         android:textSize="15dp" />
 
                     <TextView
@@ -123,6 +128,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="20dp"
                         android:text="Este subrayado, además, puede complementarse con anotaciones en el margen."
+                        android:textColor="#616161"
                         android:textSize="15dp" />
 
                 </LinearLayout>
@@ -134,15 +140,16 @@
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
+            android:layout_marginTop="5dp"
             android:background="#BDBDBD" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="2dp"
-            android:layout_marginTop="3dp"
             android:background="#FFF"
-            android:gravity="center_horizontal">
+            android:gravity="center_horizontal"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp">
 
             <Button
                 android:id="@+id/home_button"

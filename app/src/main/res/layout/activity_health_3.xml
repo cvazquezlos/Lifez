@@ -7,7 +7,9 @@
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background_health_3" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -40,6 +42,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="5dp"
                         android:text="Mejora tu salud"
+                        android:textColor="#616161"
                         android:textSize="25sp"
                         android:textStyle="bold" />
 
@@ -48,6 +51,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="2dp"
                         android:text="3. Practica al menos 30 minutos de ejercicio"
+                        android:textColor="#616161"
                         android:textSize="16dp" />
 
                 </LinearLayout>
@@ -78,6 +82,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
                         android:text="Las autoridades recomiendan la realización de, al menos, 150 minutos semanales de deporte, lo que supone, al menos, 30 minutos de ejercicio moderado, 5 días a la semana, lo que no supone demasiado tiempo, pero que es importante para la salud."
+                        android:textColor="#616161"
                         android:textSize="15dp" />
 
                     <TextView
@@ -85,6 +90,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="20dp"
                         android:text="Expertos como Casajús mencionan que 30 minutos diarios de ejercicio ofrece una protección frente a las enfermedades no transmisibles de un 30%. Además, en la gente que planifica sus ejercicios y que sigue una rutina planificada, esta protección se eleva a un 50%."
+                        android:textColor="#616161"
                         android:textSize="15dp" />
 
                 </LinearLayout>
@@ -96,18 +102,20 @@
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
+            android:layout_marginTop="5dp"
             android:background="#BDBDBD" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="2dp"
-            android:layout_marginTop="3dp"
+            android:background="#FFF"
             android:orientation="horizontal">
 
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp">
 
                 <LinearLayout
                     android:layout_width="wrap_content"
