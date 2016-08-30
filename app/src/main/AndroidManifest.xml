@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.carlosvlosada.android.lifez">
+    package="com.carlosvlosada.android.lifez"
+    android:versionCode="1"
+    android:versionName="1.1.">
 
     <application
         android:allowBackup="true"
@@ -26,5 +28,10 @@
         <activity android:name=".StudyActivity4"></activity>
         <activity android:name=".StudyActivity5"></activity>
     </application>
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="24">
+    </uses-sdk>
 
 </manifest>
