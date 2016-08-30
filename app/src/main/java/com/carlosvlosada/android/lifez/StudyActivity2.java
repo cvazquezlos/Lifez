@@ -1,4 +1,4 @@
-package com.example.android.lifez;
+package com.carlosvlosada.android.lifez;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -10,17 +10,17 @@ import android.widget.ImageButton;
 /**
  * Created by c.vazquezlos on 22/08/2016.
  */
-public class HealthActivity4 extends AppCompatActivity {
+public class StudyActivity2 extends AppCompatActivity {
 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_health_4);
+        setContentView(R.layout.activity_study_2);
 
         Button returnScreen = (Button) findViewById(R.id.return_button);
         returnScreen.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                Intent sportScreen3 = new Intent(view.getContext(), HealthActivity3.class);
-                startActivityForResult(sportScreen3, 0);
+                Intent studyScreen1 = new Intent(view.getContext(), StudyActivity1.class);
+                startActivityForResult(studyScreen1, 0);
                 try {
                     this.finalize();
                 } catch (Throwable throwable) {
@@ -32,8 +32,13 @@ public class HealthActivity4 extends AppCompatActivity {
         Button changeScreen = (Button) findViewById(R.id.next_button);
         changeScreen.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                Intent sportScreen4 = new Intent(view.getContext(), HealthActivity5.class);
-                startActivityForResult(sportScreen4, 0);
+                Intent studyScreen2 = new Intent(view.getContext(), StudyActivity3.class);
+                startActivityForResult(studyScreen2, 0);
+                try {
+                    this.finalize();
+                } catch (Throwable throwable) {
+                    throwable.printStackTrace();
+                }
             }
         });
 
@@ -42,6 +47,11 @@ public class HealthActivity4 extends AppCompatActivity {
             public void onClick(View view) {
                 Intent homescreen = new Intent(view.getContext(), MainActivity.class);
                 startActivityForResult(homescreen, 0);
+                try {
+                    this.finalize();
+                } catch (Throwable throwable) {
+                    throwable.printStackTrace();
+                }
             }
         });
     }

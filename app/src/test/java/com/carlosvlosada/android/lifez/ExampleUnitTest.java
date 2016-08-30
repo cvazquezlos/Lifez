@@ -1,4 +1,4 @@
-package com.example.android.lifez;
+package com.carlosvlosada.android.lifez;
 
 import org.junit.Test;
 

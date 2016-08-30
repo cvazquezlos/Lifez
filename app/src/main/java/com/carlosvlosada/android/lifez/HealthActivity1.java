@@ -1,4 +1,4 @@
-package com.example.android.lifez;
+package com.carlosvlosada.android.lifez;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -9,17 +9,17 @@ import android.widget.Button;
 /**
  * Created by c.vazquezlos on 22/08/2016.
  */
-public class StudyActivity5 extends AppCompatActivity {
+public class HealthActivity1 extends AppCompatActivity {
 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_study_5);
+        setContentView(R.layout.activity_health_1);
 
-        Button returnScreen = (Button) findViewById(R.id.return_button);
-        returnScreen.setOnClickListener(new View.OnClickListener() {
+        Button homeScreen = (Button) findViewById(R.id.home_button);
+        homeScreen.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                Intent studyScreen4 = new Intent(view.getContext(), StudyActivity4.class);
-                startActivityForResult(studyScreen4, 0);
+                Intent homescreen = new Intent(view.getContext(), MainActivity.class);
+                startActivityForResult(homescreen, 0);
                 try {
                     this.finalize();
                 } catch (Throwable throwable) {
@@ -28,11 +28,11 @@ public class StudyActivity5 extends AppCompatActivity {
             }
         });
 
-        Button changeScreen = (Button) findViewById(R.id.home_button);
+        Button changeScreen = (Button) findViewById(R.id.next_button);
         changeScreen.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                Intent homescreen = new Intent(view.getContext(), MainActivity.class);
-                startActivityForResult(homescreen, 0);
+                Intent sportScreen2 = new Intent(view.getContext(), HealthActivity2.class);
+                startActivityForResult(sportScreen2, 0);
                 try {
                     this.finalize();
                 } catch (Throwable throwable) {
