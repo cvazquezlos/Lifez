@@ -6,13 +6,15 @@ sudo: false
 
 android:
   components:
-    - platform-tools
+    # Update Android SDK Tools
     - tools
-    - build-tools-24.0.2
-    - android-22
-    - android-24
-    - sys-img-armeabi-v7a-android-22
+
+    - build-tools-23.0.1
+    - android-23
+
+    # Support library
+    - extra-android-support
     - extra-android-m2repository
 
-before_install:
- - chmod +x gradlew
+script:
+    - chmod +x ./gradlew
