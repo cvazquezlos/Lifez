@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.org/cvazquezlos/Lifez.svg?branch=master)](https://travis-ci.org/cvazquezlos/Lifez)
 
+# At Sept. 7, 2016 -- Project successfully finished
+
 # Castellano ![SpanishLanguage](app/src/main/res/drawable/es.png)
 
 Aplicación desarrollada en Android donde se muestran 5 consejos de algunos ámbitos de la vida cotidiana para mejorarlos. Es una buena forma de cuidarse tanto por dentro como por fuera, con consejos válidos para cualquier persona, de cualquier edad, esté donde esté.
